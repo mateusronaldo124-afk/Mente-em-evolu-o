@@ -1,0 +1,19 @@
+{
+  "name": "mente-em-evolucao",
+  "version": "1.0.0",
+  "description": "E-book de Desenvolvimento Pessoal - Página de Vendas",
+  "main": "docs/index.html",
+  "scripts": {
+    "start": "python -m http.server 8000 --directory docs",
+    "serve": "npx http-server docs -p 8000 -o"
+  },
+  "keywords": [
+    "desenvolvimento pessoal",
+    "ebook",
+    "disciplina",
+    "produtividade",
+    "procrastinação"
+  ],
+  "author": "Mente em Evolução",
+  "license": "All Rights Reserved"
+}
